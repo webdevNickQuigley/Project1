@@ -1,0 +1,71 @@
+
+	
+body{
+	background-color: #ffeeeb;
+}
+@media (min-width: 768px) {
+  h2{
+	  font-size: 28px;
+	  padding: 5px;
+  }
+  p{
+	  font-size: 18px;
+	  text-align: center;
+  }
+  ul{
+  }
+  .introTagline{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width:  100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    background-color: #FF2700;
+    color: #000000;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+  }
+  .beforeSignup{
+    position: relative;
+	margin:50px;
+	padding:0% 18%;
+	text-align: center;
+  }
+  .signupContainer{
+	display: grid;
+    grid-template-columns: [first] 20% [line2] 20% [line3] 20% [line4] 20% [line5] 20% [end];
+	grid-template-rows: auto auto auto;
+    padding: 60px 200px;
+  }
+  .justificationsSideOfForm{
+	grid-column-start: first;
+    grid-column-end: line4;
+	border-radius: 25px 0px 0px 25px;
+	padding: 50px;
+    background-color: #FF2700;
+    display: inline-block;
+  }
+  .signUpSideOfForm{
+	grid-column-start: line4;
+    grid-column-end: end;
+	border-radius: 0px 25px 25px 0px;
+	padding: 50px;
+    background-color: silver;
+    display: inline-block;
+  }
+  .justificationsSideOfForm ul {
+	list-style: disc;
+    padding: 0;
+  }
+  .justificationsSideOfForm li {
+	margin-bottom: 10px;
+  }
+  .justificationsSideOfForm p {
+	text-align: left;
+  }
+ 
+	
+	
+	
+}
