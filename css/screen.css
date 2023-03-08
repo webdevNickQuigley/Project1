@@ -2,15 +2,21 @@
 	
 body{
 	background-color: #ffeeeb;
+	background-image: url('images/IndoorFootball.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+	font-family: 'Roboto', sans-serif;
 }
 @media (min-width: 768px) {
   h2{
 	  font-size: 28px;
-	  padding: 5px;
+	  padding: 10px 0px;
   }
   p{
 	  font-size: 18px;
 	  text-align: center;
+	  padding: 15px;
   }
   ul{
   }
@@ -28,15 +34,15 @@ body{
   }
   .beforeSignup{
     position: relative;
-	margin:50px;
-	padding:0% 18%;
+	margin:50px 0px 0px 0px;
+	padding:0% 15%;
 	text-align: center;
   }
   .signupContainer{
 	display: grid;
     grid-template-columns: [first] 20% [line2] 20% [line3] 20% [line4] 20% [line5] 20% [end];
 	grid-template-rows: auto auto auto;
-    padding: 60px 200px;
+    padding: 50px 200px;
   }
   .justificationsSideOfForm{
 	grid-column-start: first;
@@ -56,15 +62,25 @@ body{
   }
   .justificationsSideOfForm ul {
 	list-style: disc;
-    padding: 0;
+    padding: 5% 10%;
   }
   .justificationsSideOfForm li {
 	margin-bottom: 10px;
   }
   .justificationsSideOfForm p {
 	text-align: left;
+	font-size: 20px;
   }
- 
+  
+  input{
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+  }
+  .entryBox{
+	padding: 10px;
+  }
 	
 	
 	
