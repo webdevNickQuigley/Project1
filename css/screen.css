@@ -103,27 +103,11 @@ input{
     background-color: silver;
     display: inline-block;
   }
-  .justificationsSideOfForm ul {
-	list-style: disc;
-    padding: 5% 10%;
-  }
   .justificationsSideOfForm li {
 	margin-bottom: 10px;
   }
   .justificationsSideOfForm p {
 	text-align: left;
 	font-size: 22px;
-  }
-  input{
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 10px;
-    width: 100%;
-  }
-  .entryBox{
-	padding: 10px;
-  }
-	
-	
-	
+  }	
 }
