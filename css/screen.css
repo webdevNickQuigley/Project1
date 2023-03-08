@@ -1,50 +1,92 @@
-
-	
 body{
-	background-color: #ffeeeb;
-	background-image: url('images/IndoorFootball.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-    background-size: cover;
-	font-family: 'Roboto', sans-serif;
+  background-color: #ffeeeb;
+  background-image: url('images/IndoorFootball.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+}
+h2{
+  font-size: 150%;
+  padding: 10px 0px;
+}
+p{
+  font-size: 120%;
+  text-align: center;
+  padding: 5px;
+}
+.introTagline{
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width:  100%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 250%;
+  background-color: #FF2700;
+  color: #000000;
+  text-align: center;
+  padding: 0.8em 0em 0.8em 0em;
+}
+.beforeSignup{
+  position: relative;
+  margin:3% 0% 3% 0%;
+  padding:0% 10%;
+  text-align: center;
+}
+.justificationsSideOfForm{
+  padding: 5%;
+  margin:3% 5% 0% 5%;
+  background-color: #FF2700;
+  display: block;
+  border-radius: 10% 10% 0% 0%;
+}
+.signUpSideOfForm{
+  padding: 5%;
+  margin:0% 5% 3% 5%;
+  background-color: silver;
+  display: block;
+  border-radius: 0% 0% 10% 10%;
+}
+.justificationsSideOfForm ul {
+  font-size: 110%;
+  list-style: disc;
+  padding: 5% 10%;
+}
+input{
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+}
+.entryBox{
+  padding: 10px;
 }
 @media (min-width: 768px) {
   h2{
-	  font-size: 28px;
+	  font-size: 30px;
 	  padding: 10px 0px;
   }
   p{
-	  font-size: 18px;
+	  font-size: 20px;
 	  text-align: center;
 	  padding: 15px;
   }
-  ul{
-  }
   .introTagline{
-    display: block;
-    overflow: hidden;
-    position: relative;
-    width:  100%;
-    font-family: 'Roboto', sans-serif;
     font-size: 50px;
-    background-color: #FF2700;
-    color: #000000;
-    text-align: center;
     padding: 50px 0px 50px 0px;
   }
   .beforeSignup{
-    position: relative;
 	margin:50px 0px 0px 0px;
 	padding:0% 15%;
-	text-align: center;
   }
   .signupContainer{
 	display: grid;
     grid-template-columns: [first] 20% [line2] 20% [line3] 20% [line4] 20% [line5] 20% [end];
-	grid-template-rows: auto auto auto;
+	grid-template-rows: auto;
     padding: 50px 200px;
   }
   .justificationsSideOfForm{
+	margin: 0px;
 	grid-column-start: first;
     grid-column-end: line4;
 	border-radius: 25px 0px 0px 25px;
@@ -53,6 +95,7 @@ body{
     display: inline-block;
   }
   .signUpSideOfForm{
+	margin: 0px;
 	grid-column-start: line4;
     grid-column-end: end;
 	border-radius: 0px 25px 25px 0px;
@@ -69,12 +112,11 @@ body{
   }
   .justificationsSideOfForm p {
 	text-align: left;
-	font-size: 20px;
+	font-size: 22px;
   }
-  
   input{
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px;
     width: 100%;
   }
