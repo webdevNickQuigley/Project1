@@ -1,6 +1,6 @@
 body{
   background-color: #ffeeeb;
-  background-image: url('images/IndoorFootball.jpg');
+  background-image: url('../images/IndoorFootball.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
