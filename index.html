@@ -11,6 +11,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+	<script src="js/site.js"></script>
   </head>
   <body>
 	<header>
@@ -33,7 +34,8 @@
 		</ul>
 		<p>Don't miss out on all the excitement and fun that the Illinois Tech Indoor Semi-Contact Flag Football League has to offer. Sign up for our e-mail list today and stay connected with us!</p>
 	  </div>
-	  <div class="signUpSideOfForm">
+	    <div class="signUpSideOfForm">
+              <form id="signupbox" method="get" action="#" autocomplete="on">
 		<div class = "entryBox">
 		  <label for="name">Please enter your full name:</label>
 		  <input type="text" id="name" name="name" placeholder="Jonathon Doe">
@@ -43,7 +45,7 @@
 		  <input type="email" id="email" name="email" placeholder="jdoe@example.com">
 		</div>
 		<div class = "entryBox">
-		  <form>
+		  
 		    <fieldset>
 			  <legend>What position are you interested in?</legend>
 			  <label for="player">I want to Play!</label>
@@ -53,9 +55,10 @@
 			  <label for="spectator">I want to watch!</label>
 			  <input type="radio" id="spectator" name="position" value="Spectator">
 		    </fieldset>
-		  </form>
+		  
 		</div>
 		<input type="submit" value="Submit">
+              </form>
 	  </div>
 	</div>
 	<div class="closing">
