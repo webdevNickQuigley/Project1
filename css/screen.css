@@ -29,7 +29,7 @@ p{
 }
 .beforeSignup{
   position: relative;
-  mar767pxgin:3% 0% 3% 0%;
+  margin:3% 0% 3% 0%;
   padding:0% 10%;
   text-align: center;
 }
@@ -50,7 +50,7 @@ p{
 .justificationsSideOfForm ul {
   font-size: 110%;
   list-style: disc;
-767px  padding: 5% 10%;
+  padding: 5% 10%;
 }
 input{
   border-radius: 5px;
