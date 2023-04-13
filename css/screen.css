@@ -4,7 +4,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  font-family: 'Montserrat', 'Oswald', sans-serif;
+  font-family:  'Oswald', 'Montserrat', sans-serif;
 }
 h2{
   font-size: 150%;
@@ -20,7 +20,7 @@ p{
   overflow: hidden;
   position: relative;
   width:  100%;
-  font-family: 'Roboto', 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue', 'Roboto', cursive;
   font-size: 250%;
   background-color: #FF2700;
   color: #000000;
@@ -62,12 +62,16 @@ input{
   padding: 10px;
 }
 @media (min-width: 480px) {
+  
+  .signupContainer{
+    padding: 50px;
+  }
   .signUpSideOfForm{
-    padding: 10%;
+    padding: 2%;
     border-radius: 0% 0% 10% 10%;
   }
   .justificationSideOfForm{
-    padding: 7%;
+    padding: 2%;
     margin: 7%;
     border-radius: 0% 0% 10% 10%;
   }
@@ -87,38 +91,38 @@ input{
     padding: 50px 0px 50px 0px;
   }
   .beforeSignup{
-	margin:50px 0px 0px 0px;
-	padding:0% 15%;
+  	margin:50px 0px 0px 0px;
+	  padding:0% 15%;
   }
   .signupContainer{
-	display: grid;
+	  display: grid;
     grid-template-columns: [first] 20% [line2] 20% [line3] 20% [line4] 20% [line5] 20% [end];
-	grid-template-rows: auto;
+	  grid-template-rows: auto;
     padding: 50px 200px;
   }
   .justificationsSideOfForm{
-	margin: 0px;
-	grid-column-start: first;
+	  margin: 0px;
+	  grid-column-start: first;
     grid-column-end: line4;
-	border-radius: 25px 0px 0px 25px;
-	padding: 50px;
+	  border-radius: 25px 0px 0px 25px;
+	  padding: 50px;
     background-color: #FF2700;
     display: inline-block;
   }
   .signUpSideOfForm{
-	margin: 0px;
-	grid-column-start: line4;
+	  margin: 0px;
+  	grid-column-start: line4;
     grid-column-end: end;
-	border-radius: 0px 25px 25px 0px;
-	padding: 50px;
+	  border-radius: 0px 25px 25px 0px;
+	  padding: 50px;
     background-color: silver;
     display: inline-block;
   }
   .justificationsSideOfForm li {
-	margin-bottom: 10px;
+	  margin-bottom: 10px;
   }
   .justificationsSideOfForm p {
-	text-align: left;
-	font-size: 22px;
+	  text-align: left;
+	  font-size: 22px;
   }	
 }
