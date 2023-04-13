@@ -4,7 +4,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', 'Oswald', sans-serif;
 }
 h2{
   font-size: 150%;
@@ -20,7 +20,7 @@ p{
   overflow: hidden;
   position: relative;
   width:  100%;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto', 'Bebas Neue', cursive;
   font-size: 250%;
   background-color: #FF2700;
   color: #000000;
